@@ -3,7 +3,7 @@ function init(){
 	function showMeText(){
 		var textbox = document.getElementById('entryinput');
 		document.getElementById('textoutput').innerHTML = textbox.value;
-		alert("Enrique Martinez:" + textbox.value);	
+		alert("Enrique Martinez: " + textbox.value);	
 }
 	button.addEventListener('click', showMeText);
 }
